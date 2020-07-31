@@ -103,14 +103,14 @@ h2 {
     display: block;
     padding: 12px 24px;
     color: #333;
-    font-family: 'Roboto Mono', monospace;
+    font-family: sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
     transition-duration: .25s;
 }
 .navli:hover {
-    color: #079324;
+    color: #088121;
 }
 
 .icon {
@@ -120,7 +120,7 @@ h2 {
 
 
   .icon:hover{
-      color: #079324;
+      color: #088121;
   }
 
 /* main content*/

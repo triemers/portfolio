@@ -8,8 +8,9 @@ html {
     max-height: 100%;
     background-color: rgba(170,170,170);
 }
-/*nav*/
-/*rotation*/
+
+/* nav */
+
 #menu__toggle {
     opacity: 0;
 }
@@ -101,49 +102,4 @@ html {
 
   .icon:hover{
       color: #088121;
-  }
-
-  /* header */
-  h1 {
-    font-size: 2rem;
-    font-family: 'Roboto Mono', monospace;
-    color: rgb(56, 65, 66);
-    max-width: 80%;
-    padding-bottom: 2.5%;
-    margin-left: 18%;
-    margin-top: 2%;
-  }
-
-  /*cards */
-  .container {
-      display: inline-flex;
-      border: 1px green solid;
-      max-width: 75%;
-      margin-left: 15%;
-
-  }
-
-  .card {
-      display: block;
-      max-width: 30%;
-      margin: 2%;
-      border-radius: 4px;
-    box-shadow: 8px 8px 12px #8e9091, 
-             -6px -6px 8px #c4c6c9;
-  }
-
-  h3{
-      font-family: 'Roboto Mono', monospace;
-      padding: 1%;
-  }
-
-  p {
-      font-family: monospace;
-      line-height: 1.5rem;
-      padding: 1%;
-  }
-
-  a {
-    font-family: 'Roboto Mono', monospace;
-    padding: 1%;
   }
