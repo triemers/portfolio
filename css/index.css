@@ -3,86 +3,91 @@ html {
     max-height: 100%;
 }
 body {
-    background-image: url("imgs/resize.jpg");
-    background-size: auto;
-    background-repeat: none;
+    background-color: rgba(170,170,170);
 }
 
 .grid {
+    height: 100%;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 2fr 1fr 2fr;
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: 40% 30% 40%;
+    border: 1px orange solid;
 }
+/*name col/row 1/1*/
 h1 {
-    font-size: 4.75rem;
+    font-size: 4.25rem;
     color: #FFF;
-    font-family: Barlow, Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 7%;
     writing-mode: vertical-rl;
-    grid-row-start: 1;
-    grid-column-start: 1/span 3;
-    transform: rotate(180deg);
+    transform: rotate(200deg);
+    position: absolute;
+    border: 1px yellow solid;
 }
 
 .black {
-    font-size: 5rem;
+    font-size: 4.25rem;
     color: #000;
-    font-family: Barlow, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
-
-.boxes {
-    background-color: rgba(255,255,255,.3);
+/*buttons - styling only */
+button {
+    font-size: 2rem;
+    font-family: monospace;
+    background-color: rgba(170,170,170);
     text-decoration: none;
-    border: 2px grey solid;
-    margin: 5%;
+    border: 0px grey solid;
+    border-radius: 4px;
+    box-shadow: 8px 8px 12px #8e9091, 
+         -6px -6px 8px #c4c6c9;
+    height: 200px;
+    width: 300px;
 }
 
+button:hover {
+    border: 0px grey solid;
+    box-shadow: inset 8px 8px 12px #8e9091, 
+         inset -6px -6px 8px #c4c6c9;
+    cursor: pointer;
+    color: #079324;
+
+}
+/* indiv */
+
+.top {
+    color:#000;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    display: inline;
+    border: 1px red solid;
+}
 #about a {
     color: #000;
-    font-family: Barlow, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
-    text-decoration: none;
-    max-height:25%;
-    max-width: 30%;
-    grid-row: 1;
-    grid-column: 2;
 }
 
 #resume a {
     color: #000;
-    font-family: Barlow, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
-    text-decoration: none;
-    height:25%;
-    width: 30%;
-    grid-row: 1;
-    grid-column: 3;
+}
+
+.second {
+    border: 1px green solid;
+    grid-column-start: 3;
+    grid-row-start: 3;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #FFF;
-    font-family: Barlow, Verdana, Geneva, Tahoma, sans-serif;
-    grid-column: 2/span 4;
-    grid-row: 2;
-    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
-#projects a {
+.bottom {
     color: #FFF;
-    font-family: Barlow, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
-    text-decoration: none;
-    grid-row: 3;
-    grid-column: 3;
-}
-
-#contact a{
-    color: #FFF;
-    font-family: Barlow, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5rem;
-    text-decoration: none;
-    grid-row: 3;
-    grid-column: 3;
+    border: 1px red solid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
 }
