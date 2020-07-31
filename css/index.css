@@ -1,3 +1,4 @@
+
 html {
     max-width: 100%;
     max-height: 100%;
@@ -6,14 +7,6 @@ body {
     background-color: rgba(170,170,170);
 }
 
-.grid {
-    height: auto;
-    width: auto;
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 2fr 1fr 2fr;
-    border: 1px orange solid;
-}
 /*name col/row 1/1*/
 h1 {
     font-size: 4.25rem;
@@ -23,7 +16,6 @@ h1 {
     writing-mode: vertical-rl;
     transform: rotate(200deg);
     position: absolute;
-    border: 1px yellow solid;
 }
 
 .black {
@@ -32,6 +24,14 @@ h1 {
     font-family: 'Roboto Mono', monospace;
 }
 
+.grid {
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-rows: 1fr 15% 1fr;
+    margin: none;
+}
 /*buttons - styling only */
 button {
     font-size: 2rem;
@@ -44,6 +44,7 @@ button {
          -6px -6px 8px #c4c6c9;
     height: 200px;
     width: 300px;
+    margin-right: 10%;
 }
 
 button:hover {
@@ -61,33 +62,31 @@ button:hover {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
-    display: inline;
-    border: 1px red solid;
-}
-#about a {
-    color: #000;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 0;
 }
 
-#resume a {
-    color: #000;
-}
 
-.second {
-    border: 1px green solid;
-    grid-column-start: 3;
-    grid-row-start: 3;
-}
 
 h2 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: #FFF;
     font-family: 'Roboto Mono', monospace;
+    display: inline;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    margin-left: 30%;
 }
 
 .bottom {
     color: #FFF;
-    border: 1px red solid;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 3;
+    margin-left: 15%;
+    margin-bottom: 0;
 }
+
+
