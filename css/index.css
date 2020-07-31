@@ -7,11 +7,11 @@ body {
 }
 
 .grid {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     display: grid;
-    grid-template-columns: 30% 35% 35%;
-    grid-template-rows: 40% 30% 40%;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr;
     border: 1px orange solid;
 }
 /*name col/row 1/1*/
