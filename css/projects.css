@@ -88,6 +88,7 @@ html {
     font-weight: 600;
     text-decoration: none;
     transition-duration: .25s;
+    margin-top: 1rem;
 }
 .navli:hover {
     color: #088121;
