@@ -48,7 +48,7 @@ button {
 }
 
 button:hover {
-    border: 0px grey solid;
+    border: 0px grey dotted;
     box-shadow: inset 8px 8px 12px #8e9091, 
          inset -6px -6px 8px #c4c6c9;
     cursor: pointer;
