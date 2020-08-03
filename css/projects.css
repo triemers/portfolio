@@ -154,3 +154,12 @@ html {
     font-family: 'Roboto Mono', monospace;
     padding: 1%;
   }
+
+  /*hamburger*/
+
+  @media only screen and (min-width: 1400px) {
+      .menu__btn {
+        width: 40px;
+        height: 40px;
+      }
+  }
