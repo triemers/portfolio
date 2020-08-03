@@ -157,6 +157,7 @@ details {
     margin: 1rem;
 }
 
+
 details:hover {
     color: #079324;
     cursor: pointer;
@@ -168,7 +169,9 @@ details:active {
                 inset -6px -6px 8px #c4c6c9;
 }
 
-
+details ul {
+    list-style-type: none;
+}
 /*cards*/
 
 h3 {
@@ -208,3 +211,8 @@ h3 {
     padding: 3%;
 }
 
+@media only screen and (max-width: 540px) {
+    details {
+        width: 100px;
+    }
+}
