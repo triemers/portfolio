@@ -96,6 +96,14 @@ h2 {
 }
 
 @media only screen and (max-width: 1125px) {
+
+    h1 {
+        font-size: 3.5rem;
+        margin: 0;
+        position: absolute;
+        transform: rotate(0deg);
+    }
+
     button {
         margin-bottom: 5%;
         height: 300px;
