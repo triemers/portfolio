@@ -222,17 +222,17 @@ h2 {
     h1 {
         transform:rotate(40deg);
         writing-mode: horizontal-tb;
-        transform: rotate(40deg);
         position: relative;
+        margin-left: 35%;
     }
     button {
         margin-bottom: 5%;
-        height: 300px;
-        width:450px;
+        height: 400px;
+        width:600px;
     }
 
     h2 {
-        margin: 5%;
+        margin: 10%;
     }
 }
 
