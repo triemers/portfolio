@@ -218,6 +218,13 @@ h2 {
 }
 
 @media only screen and (max-width: 1125px) {
+
+    h1 {
+        transform:rotate(40deg);
+        writing-mode: horizontal-tb;
+        transform: rotate(40deg);
+        position: relative;
+    }
     button {
         margin-bottom: 5%;
         height: 300px;
