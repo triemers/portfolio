@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 html {
     max-width: 100%;
@@ -120,3 +121,119 @@ h2 {
         margin-left: 27%;
     }
 }
+=======
+
+html {
+    max-width: 100%;
+    max-height: 100%;
+}
+body {
+    background-color: rgba(170,170,170);
+}
+
+/*name col/row 1/1*/
+h1 {
+    font-size: 4.25rem;
+    color: #FFF;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 7%;
+    writing-mode: vertical-rl;
+    transform: rotate(200deg);
+    position: absolute;
+}
+
+.black {
+    font-size: 4.25rem;
+    color: #000;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.grid {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-rows: 1fr 15% 1fr;
+    margin: none;
+}
+/*buttons - styling only */
+button {
+    font-size: 2rem;
+    font-family: monospace;
+    background-color: rgba(170,170,170);
+    text-decoration: none;
+    border: 0px grey solid;
+    border-radius: 4px;
+    box-shadow: 8px 8px 12px #8e9091, 
+         -6px -6px 8px #c4c6c9;
+    height: 200px;
+    width: 300px;
+    margin-right: 10%;
+}
+
+button:hover {
+    border: 0px grey dotted;
+    box-shadow: inset 8px 8px 12px #8e9091, 
+         inset -6px -6px 8px #c4c6c9;
+    cursor: pointer;
+    color: #079324;
+
+}
+/* indiv */
+
+.top {
+    color:#000;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+
+
+
+h2 {
+    font-size: 1.5rem;
+    color: #FFF;
+    font-family: 'Roboto Mono', monospace;
+    display: inline;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    margin-left: 30%;
+}
+
+.bottom {
+    color: #FFF;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    margin-left: 15%;
+    margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 4000px) {
+    h2 {
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 1125px) {
+    button {
+        margin-bottom: 5%;
+        height: 300px;
+        width:450px;
+    }
+
+    h2 {
+        margin: 5%;
+    }
+}
+
+@media only screen and (min-width: 1125px) and (max-width: 1200px) {
+    h2 {
+        margin-left: 27%;
+    }
+}
+>>>>>>> 64dd1f6b6517659d3df2d221dd32755c5b65e5e8
