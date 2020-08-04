@@ -105,6 +105,50 @@ html {
       color: #088121;
   }
 
+  /*general */
+
+  .container {
+    margin-left: 17%;
+    display: grid;
+    grid-template-columns: 60% 30%;
+  }
+
+  .form {
+      background-color: rgba(170,170,170);
+      grid-column-start: 1;
+  }
+  /*buttons*/
+  .buttonrow {
+      width: 100%;
+      grid-column-start: 2;
+  }
+  button {
+    background-color: rgba(170,170,170);
+    text-decoration: none;
+    border: 0px grey solid;
+    border-radius: 4px;
+    box-shadow: 8px 8px 12px #8e9091, 
+         -6px -6px 8px #c4c6c9;
+    height: 200px;
+    width: 200px;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  button:hover {
+    border: 0px grey dotted;
+    box-shadow: inset 8px 8px 12px #8e9091, 
+         inset -6px -6px 8px #c4c6c9;
+    cursor: pointer;
+    color: #079324;
+
+}
+
+.butimg {
+    height: 100px;
+    width: 100px;
+}
+
    /*hamburger*/
 
    @media only screen and (min-width: 1400px) {
