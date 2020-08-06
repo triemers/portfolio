@@ -134,7 +134,7 @@ html {
   }
 
   .img {
-      height: 9rem;
+      height: auto;
       width: 95%;
       margin: 2.5%;
       border-radius: 4px;
