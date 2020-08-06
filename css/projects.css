@@ -149,10 +149,13 @@ html {
       line-height: 1.5rem;
       padding: 1%;
   }
+.projectlinks {
+
+}
 
   a {
     font-family: 'Roboto Mono', monospace;
-    padding: 1%;
+    padding: 3%;
     color: black;
   }
 

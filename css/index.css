@@ -223,7 +223,12 @@ h2 {
         transform:rotate(0deg);
         writing-mode: horizontal-tb;
         position: relative;
-        margin-left: 20%;
+        margin-left: 10%;
+        font-size: 9rem;
+    }
+
+    .black {
+        font-size: 9rem;
     }
     button {
         margin-bottom: 5%;
@@ -242,8 +247,8 @@ h2 {
     }
 
     h2 {
-        margin-left: 10%;
-  
+        font-size: 3.5rem;
+        margin-left: -3%;
     }
 }
 
