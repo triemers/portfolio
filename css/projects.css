@@ -153,6 +153,16 @@ html {
   a {
     font-family: 'Roboto Mono', monospace;
     padding: 1%;
+    color: black;
+  }
+
+
+  a:visited {
+      color: rgb(56, 65, 66);
+  }
+
+  a:hover {
+    color: #088121;
   }
 
   /*hamburger*/
